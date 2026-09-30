@@ -1,0 +1,27 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"Noto Sans KR","Malgun Gothic",Arial,sans-serif;color:#172033;background:#f4f6f9;line-height:1.75}
+.site-header{background:#17365d;color:#fff;padding:34px 0}
+.header-inner{max-width:1180px;margin:auto;padding:0 24px}
+.eyebrow{font-size:13px;opacity:.8;margin-bottom:6px}
+.site-header h1{margin:0;font-size:30px;letter-spacing:-.8px}
+.site-header p{margin:5px 0 0;color:#dce7f4}
+.layout{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:280px minmax(0,1fr);gap:24px;padding:24px}
+.sidebar{position:sticky;top:18px;height:max-content;background:#fff;border:1px solid #dce2ea;border-radius:12px;padding:18px;box-shadow:0 3px 12px rgba(0,0,0,.04)}
+.search-box label{display:block;font-weight:700;margin-bottom:8px}
+#search{width:100%;padding:11px 12px;border:1px solid #cbd3df;border-radius:8px;font-size:14px}
+#result-count{font-size:12px;color:#667085;margin-top:7px;min-height:18px}
+.nav-title{font-weight:800;margin:18px 0 8px}
+.toc-btn{display:block;width:100%;text-align:left;background:transparent;border:0;border-radius:7px;padding:9px 10px;margin:2px 0;color:#344054;cursor:pointer;font-size:14px}
+.toc-btn:hover,.toc-btn.active{background:#edf4fb;color:#17365d;font-weight:700}
+.content{min-width:0}
+.notice{background:#fff4d6;border:1px solid #f0d98a;color:#705b14;padding:10px 14px;border-radius:9px;margin-bottom:16px;font-size:13px}
+article{background:#fff;border:1px solid #dce2ea;border-radius:12px;padding:34px 42px;box-shadow:0 3px 12px rgba(0,0,0,.04)}
+article h1{font-size:26px;border-bottom:2px solid #17365d;padding-bottom:14px;margin-top:0}
+article h2{font-size:21px;color:#17365d;border-left:5px solid #2d6da3;padding-left:12px;margin:34px 0 12px;scroll-margin-top:20px}
+article p{margin:10px 0}
+mark{background:#fff09b;padding:0 2px;border-radius:2px}
+.no-result{background:#fff;border:1px solid #dce2ea;border-radius:12px;padding:28px;text-align:center;color:#667085}
+footer{max-width:1180px;margin:0 auto;padding:10px 24px 30px;color:#667085;font-size:13px;display:flex;justify-content:space-between}
+#top-btn{border:0;background:#17365d;color:#fff;border-radius:7px;padding:7px 12px;cursor:pointer}
+@media(max-width:800px){.layout{grid-template-columns:1fr;padding:12px}.sidebar{position:relative;top:auto}.site-header{padding:24px 0}.site-header h1{font-size:24px}article{padding:24px 20px}}
